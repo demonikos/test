@@ -137,26 +137,6 @@ button {
     margin: 0 auto 72px;
 }
 
-.we-doing-box {
-    position: relative;
-    width: auto;
-    /* height: 412px; */
-    padding-top: 112px;
-    background-color: transparent;
-    z-index: 1;
-}
-
-.we-doing-title {
-    position: absolute;
-    top: 0;
-    left: 418px;
-    margin: 0 auto;
-    width: 323px;
-    height: auto;
-background-color: transparent;
-letter-spacing: normal;
-}
-
 .subtitle {
     font-weight: 600;
     font-size: 20px;
@@ -326,6 +306,26 @@ letter-spacing: normal;
     width: 64px;
     height: 64px;
     fill: var(--dark-color)
+}
+
+.we-doing-box {
+    position: relative;
+    width: auto;
+    /* height: 412px; */
+    padding-top: 112px;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.we-doing-title {
+    position: absolute;
+    top: 0;
+    left: 418px;
+    margin: 0 auto;
+    width: 323px;
+    height: auto;
+    background-color: transparent;
+    letter-spacing: normal;
 }
 
 .we-doing {
