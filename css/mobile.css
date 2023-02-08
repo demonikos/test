@@ -1,0 +1,22 @@
+@media (min-width: 480px) {
+    .container {
+        max-width: 428px;
+    }
+
+/* -----Hero----- */
+
+    .hero {
+        width: 428px;
+        max-width:428px;
+        height: 432px;
+    }
+
+    .hero-title {
+        width: 318px;
+        max-width: 318px;
+        height: 80px;
+    }
+
+/* -----Advantages----- */
+
+}

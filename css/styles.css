@@ -118,12 +118,11 @@ button {
 }
 
 .container {
-    width: 1158px;
-    height: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 100%;
+    max-width: 100%;
+    /* height: auto; */
     margin: 0 auto;
-    /* outline: 2px solid red; */
+    padding: 0 16px;
 }
 
 .title {
@@ -316,8 +315,9 @@ button {
 /* -----Hero----- */
 
 .hero {
-    max-width: 1440px;
-    padding: 188px 0px;
+    width: 100%;
+    height: auto;
+    padding: 112px 0px;
     background-color: var(--dark-color);
     text-align: center;
     background-image: var(--bg-hero-gradient), url(../images/main/hero-bg.jpg);
@@ -328,22 +328,32 @@ button {
 }
 
 .hero-title {
-    width: 496px;
-    font-size: 56px;
-    line-height: 1.07;
+    max-width: 100%;
+    height: auto;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     white-space: normal;
     color: var(--white-color);
     display: block;
-    margin: 0px auto 48px;
+    margin: 0px auto 72px;
 }
 
 .hero-btn {
-    line-height: 1.19;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    line-height: 1.5;
+    letter-spacing: normal;
     border: 0;
     padding: 16px 32px;
-    min-width: 170px;
+    width: 100%;
+    max-width: 169px;
+    height: auto;
+    margin: 0 auto;
     background-color: var(--brand-color);
     color: var(--white-color);
     transition: background-color var(--duration) var(--bezier);
