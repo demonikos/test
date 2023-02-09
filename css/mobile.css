@@ -1,13 +1,17 @@
 @media (min-width: 480px) {
+    .section {
+        max-width: 428px;
+    }
+
     .container {
         max-width: 428px;
     }
 
-/* -----Hero----- */
+    /* -----Hero----- */
 
     .hero {
         width: 428px;
-        max-width:428px;
+        max-width: 428px;
         height: 432px;
     }
 
@@ -17,6 +21,13 @@
         height: 80px;
     }
 
-/* -----Advantages----- */
+    /* -----Advantages----- */
 
+    /* -----We doing----- */
+
+    /* -----Our Team----- */
+
+    /* -----Customers----- */
+
+    
 }

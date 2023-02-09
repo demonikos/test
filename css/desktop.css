@@ -1,9 +1,23 @@
 @media screen and (min-width: 1200px) {
-    .container {
+    .section {
         max-width: 1158px;
+        padding: 120px 0px;
     }
 
-/* -----Hero----- */
+    .container {
+        max-width: 1158px;
+        padding: 0 15px;
+    }
+
+    .container.team-container {
+        max-width: 100%;
+    }
+
+    .container.customers-container {
+        max-width: 100%;
+    }
+
+    /* -----Hero----- */
 
     .hero {
         width: 1158px;
@@ -22,6 +36,51 @@
         margin: 0px auto 48px;
     }
 
-/* -----Advantages----- */
+    /* -----Advantages----- */
 
+    .advantages-item {
+        width: calc((100% - 72px) / 4);
+    }
+
+    .advantages-image {
+        display: flex;
+    }
+
+    .advantages-subtitle {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        text-align: start;
+    }
+
+    .advantages-text {
+        font-weight: 400;
+    }
+
+    /* -----We doing----- */
+
+    .we-doing {
+        padding-top: 0;
+        display: block;
+    }
+
+    /* -----Our Team----- */
+
+    .team {
+        padding: 120px 0;
+    }
+
+    .team-item {
+        width: calc((100% - 72px) / 4);
+    }
+
+    .team-list {
+        gap: 24px;
+    }
+
+    /* -----Customers----- */
+
+    .customers-item {
+        width: calc((100% - 120px) / 6);
+    }
 }
