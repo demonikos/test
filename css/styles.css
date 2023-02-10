@@ -151,7 +151,7 @@ button {
 .subtitle {
     font-weight: 600;
     font-size: 20px;
-    line-height: calc(20 / 24);
+    line-height: calc(24 / 20);
     letter-spacing: 0.02em;
     color: var(--dark-color);
     margin-bottom: 8px;
@@ -169,7 +169,7 @@ button {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.33;
+    line-height: calc(24 / 18);
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -242,40 +242,41 @@ button {
 /* -----Footer----- */
 
 .footer-section {
-    padding: 100px 0px;
+    padding: 96px 0px;
     background-color: var(--dark-color);
+}
+
+.footer-columns {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+    justify-content: center;
+    /* align-items: baseline; */
 }
 
 .footer-text {
     width: 264px;
+    font-size: 16px;
+    line-height: calc(24 / 16);
+    letter-spacing: 0.02em;
     white-space: normal;
     color: var(--accent-color);
 }
 
 .footer-logo {
     color: var(--light-color);
+    line-height: calc(22 / 18);
     display: block;
     margin-bottom: 16px;
+    text-align: center;
 }
 
 .footer-social-media {
     font-weight: 500;
     color: var(--white-color);
     margin-bottom: 16px;
-}
-
-.footer-columns {
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-}
-
-.footer-left-column {
-    margin-right: 120px;
-}
-
-.footer-center-column {
-    margin-right: 80px;
+    text-align: center;
 }
 
 .footer-soc-list {
@@ -313,9 +314,13 @@ button {
 
 .subscribe-form {
     display: flex;
-    flex-direction: row;
-    gap: 24px;
-    align-items: flex-end;
+    flex-wrap: wrap;
+    row-gap: 16px;
+    column-gap: 24px;
+    justify-content: center;
+    /* flex-direction: row; */
+    /* gap: 24px; */
+    /* align-items: flex-end; */
 }
 
 .subscribe-text {
@@ -323,8 +328,8 @@ button {
     display: block;
     color: var(--white-color);
     margin-bottom: 16px;
+    text-align: center;
 }
-
 
 .subscribe-btn {
     line-height: 1.5;
@@ -348,7 +353,7 @@ button {
 }
 
 .email-input {
-    width: 264px;
+    width: 100%;
     height: 40px;
     padding: 8px 16px;
     background-color: transparent;

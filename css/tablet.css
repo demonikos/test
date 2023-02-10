@@ -69,4 +69,36 @@
     .customers-icon {
         width: 104px;
     }
+
+    /* -----Footer----- */
+
+    .footer-columns {
+        max-width: 584px;
+        justify-content: start;
+    }
+
+    .footer-logo {
+        text-align: start;
+    }
+
+    .footer-social-media {
+        text-align: start;
+    }
+
+    .subscribe-form {
+        flex-direction: row;
+        /* gap: 24px; */
+        align-items: flex-end;
+        flex-wrap: nowrap;
+    }
+
+    .subscribe-text {
+        text-align: start;
+    }
+
+    .email-input {
+        width: 264px;
+    }
+
+
 }

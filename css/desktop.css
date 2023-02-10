@@ -83,4 +83,24 @@
     .customers-item {
         width: calc((100% - 120px) / 6);
     }
+
+
+    /* -----Footer----- */
+
+    .footer-section {
+        padding: 100px 0px;
+    }
+
+    .footer-columns {
+        gap: 0;
+    }
+
+    .footer-left-column {
+        margin-right: 120px;
+    }
+
+    .footer-center-column {
+        margin-right: 80px;
+    }
+
 }
