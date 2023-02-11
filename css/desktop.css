@@ -17,6 +17,40 @@
         max-width: 100%;
     }
 
+    /* -----Header----- */
+    .header-section {
+        max-width: 1158px;
+        border-bottom: 1px solid var(--accent-color);
+        padding: 0;
+    }
+
+    .header-logo {
+        margin-right: 76px;
+    }
+
+    .nav {
+        margin-right: 332px;
+        align-items: baseline;
+    }
+
+    .nav-list{
+        margin: 0;;
+    }
+
+    .nav-link{
+        padding: 24px 0 28px;
+    }
+
+    .address-list {
+        gap: 40px;
+    }
+
+    .address-link {
+        font-size: 16px;
+        line-height: calc(24 / 16);
+        letter-spacing: 0.02em;
+    }
+
     /* -----Hero----- */
 
     .hero {
@@ -44,12 +78,18 @@
 
     .advantages-image {
         display: flex;
+        padding: 24px;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--light-color);
+        border-radius: 4px;
+        margin-bottom: 8px;
     }
 
     .advantages-subtitle {
         font-weight: 500;
         font-size: 20px;
-        line-height: 1.2;
+        line-height: calc(24 / 20);
         text-align: start;
     }
 
@@ -62,6 +102,15 @@
     .we-doing {
         padding-top: 0;
         display: block;
+    }
+
+    .we-doing-list {
+        display: flex;
+        gap: 24px;
+    }
+
+    .we-doing-item {
+        flex-basis: calc((100% - 48px) / 3);
     }
 
     /* -----Our Team----- */

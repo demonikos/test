@@ -7,6 +7,10 @@
         max-width: 428px;
     }
 
+    /* -----Header----- */
+
+
+
     /* -----Hero----- */
 
     .hero {
@@ -31,5 +35,8 @@
 
     /* -----Footer----- */
 
-    
+    /* -----Header----- */
+    .hamburger-tel-link {
+        font-size: 33px;
+    }
 }
