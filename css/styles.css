@@ -462,11 +462,19 @@ button {
     padding: 112px 0px;
     background-color: var(--dark-color);
     text-align: center;
-    background-image: var(--bg-hero-gradient), url(../images/main/hero-bg.jpg);
+    background-image: var(--bg-hero-gradient), url(../images/main/hero-bg-mobile.jpg);
     background-repeat: no-repeat;
     margin: 0 auto;
     background-position: center;
     background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero {
+        background-image: var(--bg-hero-gradient), url(../images/main/hero-bg-mobile-2x.jpg);
+    }
 }
 
 .hero-title {

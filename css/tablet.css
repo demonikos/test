@@ -90,6 +90,15 @@
         max-width: 768px;
         height: 436px;
         padding-bottom: 108px;
+        background-image: var(--bg-hero-gradient), url(../images/main/hero-bg-desktop.jpg);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: var(--bg-hero-gradient), url(../images/main/hero-bg-desktop-2x.jpg);
+        }
     }
 
     .hero-title {

@@ -17,6 +17,15 @@
         width: 428px;
         max-width: 428px;
         height: 432px;
+        background-image: var(--bg-hero-gradient), url(../images/main/hero-bg-tablet.jpg);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: var(--bg-hero-gradient), url(../images/main/hero-bg-tablet-2x.jpg);
+        }
     }
 
     .hero-title {
