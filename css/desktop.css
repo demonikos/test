@@ -33,11 +33,12 @@
         align-items: baseline;
     }
 
-    .nav-list{
-        margin: 0;;
+    .nav-list {
+        margin: 0;
+        ;
     }
 
-    .nav-link{
+    .nav-link {
         padding: 24px 0 28px;
     }
 
@@ -61,12 +62,8 @@
     }
 
     .hero-title {
-        width: 494px;
-        max-width: 494px;
         text-align: center;
         white-space: normal;
-        color: var(--white-color);
-        display: block;
         margin: 0px auto 48px;
     }
 
@@ -119,12 +116,12 @@
         padding: 120px 0;
     }
 
-    .team-item {
-        width: calc((100% - 72px) / 4);
-    }
-
     .team-list {
         gap: 24px;
+    }
+
+    .team-item {
+        width: calc((100% - 72px) / 4);
     }
 
     /* -----Customers----- */
