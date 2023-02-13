@@ -146,6 +146,7 @@
     }
 
     .filter-list {
+        max-width: 100%;
         justify-content: center;
         gap: 24px;
         margin-bottom: 64px;

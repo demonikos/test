@@ -621,6 +621,7 @@ button {
 }
 
 .filter-list {
+    max-width: 320px;
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
@@ -657,7 +658,7 @@ button {
 }
 
 .gallery-link {
-    display: inline-block;
+    display: block;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
     transition: box-shadow var(--duration) var(--bezier);
 }
