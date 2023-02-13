@@ -55,6 +55,7 @@ ul {
 img {
     display: block;
     width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -140,7 +141,6 @@ button {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     display: block;
-    /* text-align: center; */
     color: var(--dark-color);
     margin: 0 auto 72px;
 }
@@ -250,8 +250,6 @@ button {
     padding: 80px 40px 40px;
 }
 
-.hamburger-menu-list {}
-
 .hamburger-nav-item:not(:last-child) {
     margin-bottom: 40px;
 }
@@ -264,10 +262,6 @@ button {
     text-transform: capitalize;
     color: var(--dark-color);
 }
-
-.hamburger-address {}
-
-.hamburger-address-list {}
 
 .hamburger-address-item {
     margin-bottom: 40px;
@@ -323,7 +317,6 @@ button {
     row-gap: 72px;
     column-gap: 24px;
     justify-content: center;
-    /* align-items: baseline; */
 }
 
 .footer-text {
@@ -660,7 +653,7 @@ button {
 }
 
 .gallery-item {
-    width: calc((100% - 48px) / 3);
+    width: 100%;
 }
 
 .gallery-link {
@@ -676,8 +669,8 @@ button {
 
 .thumb {
     position: relative;
-    width: 360px;
-    height: 300px;
+    width: 100%;
+    height: auto;
     background-color: #fff;
     overflow: hidden;
 }
@@ -706,6 +699,10 @@ button {
 
 .gallery-link:focus .gallery-overlay {
     transform: translateY(0);
+}
+
+.gallery-subtitle {
+    font-weight: 500;
 }
 
 .gallery-content {

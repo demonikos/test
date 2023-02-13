@@ -151,6 +151,18 @@
         margin-bottom: 64px;
     }
 
+    .gallery-list {
+        row-gap: 72px;
+    }
+
+    .gallery-item {
+        width: calc((100% - 24px) / 2);
+    }
+
+    .thumb {
+        width: 356px;
+    }
+
     /* -----Footer----- */
 
     .footer-columns {

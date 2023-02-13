@@ -18,7 +18,11 @@
     }
 
     /* -----Header----- */
+    .hamburger-tel-link {
+        font-size: 33px;
+    }
 
+    -----Header----- */
     /* -----Hero----- */
 
     .hero-title {
@@ -28,23 +32,11 @@
     }
 
     /* -----Advantages----- */
-
     /* -----We doing----- */
-
     /* -----Our Team----- */
-
     /* -----Customers----- */
-
     /* -----Gallery----- */
-
-    
-
     /* -----Footer----- */
-
-    /* -----Header----- */
-    .hamburger-tel-link {
-        font-size: 33px;
-    }
 
     /*-----Modal window-----*/
     .modal {

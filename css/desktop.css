@@ -138,9 +138,24 @@
     }
 
     /* -----Gallery----- */
+    .gallery {
+        padding: 96px 0px 120px;
+    }
 
     .filter-list {
         margin-bottom: 72px;
+    }
+
+    .gallery-list {
+        row-gap: 48px;
+    }
+
+    .gallery-item {
+        width: calc((100% - 48px) / 3);
+    }
+
+    .thumb {
+        width: 360px;
     }
 
     /* -----Footer----- */
