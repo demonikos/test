@@ -115,17 +115,13 @@ button {
 }
 
 .section {
-    max-width: 100%;
     padding: 96px 0px;
-    margin: 0 auto;
 }
 
 .container {
     width: 100%;
-    max-width: 100%;
-    /* height: auto; */
     margin: 0 auto;
-    padding: 0 16px;
+    padding: 0 15px;
 }
 
 .container.team-container {
@@ -187,7 +183,7 @@ button {
 
 /* -----Header----- */
 
-.header-section {
+.header {
     border-bottom: 1px solid var(--accent-color);
     padding: 24px 0;
 }
@@ -195,9 +191,7 @@ button {
 .header-container {
     width: 100%;
     display: flex;
-    /* flex-wrap: wrap; */
     align-items: center;
-    /* outline: 2px solid red; */
 }
 
 .header-logo {
@@ -281,7 +275,6 @@ button {
 
 .hamburger-tel-link {
     font-weight: 600;
-    /* font-size: 24px; */
     font-size: calc((100vw - 320px) / (480 - 320) * (33 - 24) + 24px);
     line-height: calc(40 / 33);
     text-transform: capitalize;
@@ -318,7 +311,7 @@ button {
 
 /* -----Footer----- */
 
-.footer-section {
+.footer {
     padding: 96px 0px;
     background-color: var(--dark-color);
 }
@@ -481,8 +474,8 @@ button {
     max-width: 100%;
     height: auto;
     font-weight: 700;
-    font-size: 35px;
-    line-height: calc(40 / 35);
+    font-size: 32px;
+    line-height: calc(40 / 32);
     letter-spacing: 0.02em;
     text-align: center;
     white-space: normal;

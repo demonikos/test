@@ -1,32 +1,25 @@
-@media (min-width: 480px) {
-    .section {
-        max-width: 428px;
-    }
+@media (min-width: 429px) and (max-width: 768px) {
+    .hero {
+            background-image: var(--bg-hero-gradient), url(../images/main/hero-bg-tablet.jpg);
+        }
 
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .hero {
+                background-image: var(--bg-hero-gradient), url(../images/main/hero-bg-tablet-2x.jpg);
+        }
+    }
+}
+
+@media (min-width: 480px) {
     .container {
         max-width: 428px;
     }
 
     /* -----Header----- */
 
-
-
     /* -----Hero----- */
-
-    .hero {
-        width: 428px;
-        max-width: 428px;
-        height: 432px;
-        background-image: var(--bg-hero-gradient), url(../images/main/hero-bg-tablet.jpg);
-    }
-
-    @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-        .hero {
-            background-image: var(--bg-hero-gradient), url(../images/main/hero-bg-tablet-2x.jpg);
-        }
-    }
 
     .hero-title {
         width: 318px;

@@ -1,26 +1,37 @@
+@media (min-width: 1440px){
+    .hero {
+        background-image: var(--bg-hero-gradient), url(../images/main/hero-bg-desktop.jpg);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: var(--bg-hero-gradient), url(../images/main/hero-bg-desktop-2x.jpg);
+        }
+    }
+}
+
 @media screen and (min-width: 1200px) {
     .section {
-        max-width: 1158px;
         padding: 120px 0px;
     }
 
     .container {
         max-width: 1158px;
-        padding: 0 15px;
     }
 
     .container.team-container {
-        max-width: 100%;
+        max-width: 1158px;
     }
 
     .container.customers-container {
-        max-width: 100%;
+        max-width: 1158px;
     }
 
     /* -----Header----- */
-    .header-section {
-        max-width: 1158px;
-        border-bottom: 1px solid var(--accent-color);
+    .header {
+        /* max-width: 1158px; */
         padding: 0;
     }
 
@@ -35,7 +46,6 @@
 
     .nav-list {
         margin: 0;
-        ;
     }
 
     .nav-link {
@@ -55,9 +65,6 @@
     /* -----Hero----- */
 
     .hero {
-        width: 1158px;
-        max-width: 1158px;
-        height: 600px;
         padding: 188px 0px;
     }
 
@@ -133,7 +140,7 @@
 
     /* -----Footer----- */
 
-    .footer-section {
+    .footer {
         padding: 100px 0px;
     }
 
