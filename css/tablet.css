@@ -29,7 +29,6 @@
 
     .header {
         padding-bottom: 0;
-        border: 0;
     }
 
     .header-logo {
@@ -138,6 +137,18 @@
 
     .customers-icon {
         width: 104px;
+    }
+
+    /* -----Gallery----- */
+
+    .gallery {
+        padding: 64px 0px 96px;
+    }
+
+    .filter-list {
+        justify-content: center;
+        gap: 24px;
+        margin-bottom: 64px;
     }
 
     /* -----Footer----- */
