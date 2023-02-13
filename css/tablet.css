@@ -170,5 +170,10 @@
         width: 264px;
     }
 
-
+    /*-----Modal window-----*/
+    .modal {
+        width: 408px;
+        height: 586px;
+        padding: 72px 24px;
+    }
 }

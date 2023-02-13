@@ -1,4 +1,4 @@
-@media (min-width: 1440px){
+@media (min-width: 1440px) {
     .hero {
         background-image: var(--bg-hero-gradient), url(../images/main/hero-bg-desktop.jpg);
     }
@@ -156,4 +156,14 @@
         margin-right: 80px;
     }
 
+    /*-----Modal window-----*/
+    .modal {
+        top: 80px;
+        width: 408px;
+        height: 584px;
+    }
+
+    .modal-head {
+    margin-bottom: 14px;
+    }
 }
